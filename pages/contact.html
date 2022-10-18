@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+    </style>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../images/logo.png" alt="logo" class="logo" id="logotop"/>
+  
+      <nav class="nav1">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="contact.html" class="active">Contacto</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="location.html">Ubicacion</a></li>
+        </ul>
+      </nav>
+      </header>
+    <div class="contactall">
+      <div class="form">
+        <h1>Contacto</h1>
+          <fieldset class="form2"><form>
+            <label for="fullname" class="fullname">Nombre:</label>
+            <input type="text" name="fullname" id="fullname" />
+
+            <label for="email" class="email">Correo:</label>
+            <input type="email" name="email" id="email" />
+
+            <label for="phone" class="phone">Numero Telefonico:</label>
+            <input type="number" name="phone" id="phone" />
+            
+            <label for="country" class="country">Pais:</label>
+            <select name="country">
+                <option>Argentina</option>
+                <option>Chile</option>
+                <option>Colombia</option>
+                <option>Mexico</option>
+                <option>Uruguay</option>
+            </select>
+
+            <label for="comment" class="comment">Mensaje:</label>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </form></fieldset>
+      </div>
+      <div class="contactimg">
+        <img src="../images/call.png" alt="imagen de contacto">
+      </div>
+    </div>
+    <hr />
+
+    <footer class="footer">
+      <a href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+
+      <a href="http://twitter.com" ><i class="fa-brands fa-twitter"></i></a>
+
+      <a href="http://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+    </footer>
+  </body>
+</html>
